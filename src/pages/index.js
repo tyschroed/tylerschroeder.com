@@ -1,8 +1,6 @@
 import React from 'react'
-import Helmet from 'react-helmet'
-import { graphql } from 'gatsby'
 import Layout from '../components/layout'
-import SEO from '../components/seo';
+import SEO from '../components/seo'
 
 export default function Index() {
   return (
@@ -27,6 +25,14 @@ export default function Index() {
         </section>
         <section>
           <ul className="icons">
+            <li>
+              <a
+                href="https://stackoverflow.com/users/story/239488"
+                className="icon fa-stack-overflow"
+              >
+                <span className="label">Stack Overflow</span>
+              </a>
+            </li>
             <li>
               <a
                 href="https://twitter.com/tyschroed"

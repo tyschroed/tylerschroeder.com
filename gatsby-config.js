@@ -1,11 +1,20 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Strata by HTML5 UP",
-    author: "Hunter Chang",
-    description: "A Gatsby.js Starter based on Strata by HTML5 UP"
+    title: "Tyler Schroeder - full stack web developer and engineering manager in Bellingham, WA",
+    author: "Tyler Schroeder",
+    description: "Web developer based in Bellingham, WA building web applications that make people happy."
   },
   plugins: [
     'gatsby-plugin-react-helmet',
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/assets/images`,
+      },
+    },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -19,6 +28,12 @@ module.exports = {
       },
     },
     'gatsby-plugin-sass',
-    'gatsby-plugin-offline'
+    'gatsby-plugin-offline',
+    {
+      resolve: `gatsby-plugin-s3`,
+      options: {
+        bucketName: "www.tylerschroeder.com",
+      },
+    },
   ],
 }

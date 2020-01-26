@@ -35,5 +35,10 @@ module.exports = {
         bucketName: "www.tylerschroeder.com",
       },
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-155991675-3"
+      }
   ],
 }

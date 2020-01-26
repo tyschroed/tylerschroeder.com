@@ -26,16 +26,16 @@ export default function Index() {
         <section>
           <ul className="icons">
             <li>
+              <a href="https://github.com/tyschroed" className="icon fa-github">
+                <span className="label">Github</span>
+              </a>
+            </li>
+            <li>
               <a
                 href="https://stackoverflow.com/users/story/239488"
                 className="icon fa-stack-overflow"
               >
                 <span className="label">Stack Overflow</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com/tyschroed" className="icon fa-github">
-                <span className="label">Github</span>
               </a>
             </li>
             <li>

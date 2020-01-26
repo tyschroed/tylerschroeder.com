@@ -19,8 +19,8 @@ export default function Index() {
             for clients large and small.
           </p>
           <p>
-            When I'm not writing code, I'm either playing with my two boys or in
-            my shop building things out of wood.
+            When I'm not working, I'm either playing with my two boys or in my
+            shop building things out of wood.
           </p>
         </section>
         <section>
@@ -31,14 +31,6 @@ export default function Index() {
                 className="icon fa-stack-overflow"
               >
                 <span className="label">Stack Overflow</span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://twitter.com/tyschroed"
-                className="icon fa-twitter"
-              >
-                <span className="label">Twitter</span>
               </a>
             </li>
             <li>

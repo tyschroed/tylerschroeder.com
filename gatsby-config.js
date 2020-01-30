@@ -1,8 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: "Tyler Schroeder - full stack web developer and engineering manager in Bellingham, WA",
-    author: "Tyler Schroeder",
-    description: "Web developer based in Bellingham, WA building web applications that make people happy."
+    title:
+      'Tyler Schroeder - full stack web application developer and tech lead in Bellingham, WA',
+    author: 'Tyler Schroeder',
+    description:
+      'Web developer based in Bellingham, WA building web applications that make people happy.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -32,13 +34,14 @@ module.exports = {
     {
       resolve: `gatsby-plugin-s3`,
       options: {
-        bucketName: "www.tylerschroeder.com",
+        bucketName: 'www.tylerschroeder.com',
       },
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-155991675-3"
-      }
+        trackingId: 'UA-155991675-3',
+      },
+    },
   ],
 }
